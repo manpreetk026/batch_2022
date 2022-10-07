@@ -1,0 +1,217 @@
+body{
+	background-color:black;
+	background-size:100% 100%;
+}
+.header{
+	position:fixed;
+}
+.first #L{
+	margin-left:25px;
+	position:fixed;
+	float:left;
+}
+.first .navbar a:link , a:visited{
+	color:white;
+	margin:30px;
+	font-size:24px;
+	padding:20px;
+	text-align:center;
+}
+.first .navbar a:hover , a:active{
+	background-color:grey;
+}
+.Home {
+	background:url('coffee.jpeg') no-repeat;
+	background-position:center;
+	background-size:cover;
+	align-items:center;
+	min-height:100%;
+	display:flex;
+}
+.Home .content{
+	font-size:48px;
+	color:white;
+	text-shadow:0 5px 8px;
+	font-family:georgia;
+	text-align:center;
+}
+ #button {
+	color:black;
+	margin:20px;
+	font-size:24px;
+	padding:20px;
+	text-align:center;
+	display:inline-block;
+	background-color:peachpuff;
+}
+#button:hover{
+	background-color:peachpuff;
+	border-style:solid 2px black;
+}
+.about .heading{
+	text-align:center;
+	font-family:capital;
+	font-size:48px;
+	text-shadow:0 5px 8px;
+	color:#ccc;
+	text-transform:uppercase;
+}
+.about .image{
+	width:100%;
+}
+.about .content{
+	color:#fff;
+	font-size:24px;
+}
+.about .content .para{
+	font-size:24px;
+	color:#ccc;
+	text-align:center;
+}
+.Brand .div1 {
+	float:left;
+	width:30%;
+	height:300px;
+	padding:20px;
+	color:black;
+	background-color:white;
+	border:double peachpuff 5px;
+	border-radius:12px;
+	text-shadow:0 5px 5px;
+}
+.Brand .div2{
+	float:right;
+	width:30%;
+	height:300px;
+	padding:20px;
+	color:black;
+	background-color:white;
+	border:double peachpuff 5px;
+	border-radius:12px;
+	text-shadow:0 5px 5px;
+}
+.Brand .div3{
+	float:right;
+	width:30%;
+	height:300px;
+	padding:20px;
+	color:black;
+	background-color:white;
+	border:double peachpuff 5px;
+	border-radius:12px;
+	text-shadow:5px 5px 5px;
+}
+.Brand .h{
+	font-size:48px;
+	color:white;
+	text-shadow:0 5px 8px;
+	font-family:georgia;
+	text-align:center;
+}
+.Brand .div4{
+	float:left;
+	width:30%;
+	height:300px;
+	padding:20px;
+	color:black;
+	background-color:white;
+	border:double peachpuff 5px;
+	border-radius:12px;
+	text-shadow:5px 5px 5px;
+}
+.Brand .div5{
+	float:right;
+	width:30%;
+	height:300px;
+	padding:20px;
+	color:black;
+	background-color:white;
+	border:double peachpuff 5px;
+	border-radius:12px;
+	text-shadow:5px 5px 5px;
+}
+.Brand .div6{
+	float:right;
+	width:30%;
+	height:300px;
+	padding:20px;
+	color:black;
+	background-color:white;
+	border:double peachpuff 5px;
+	border-radius:12px;
+	text-shadow:5px 5px 5px;
+}
+.Product .d{
+	font-size:48px;
+	color:white;
+	text-shadow:0 5px 8px;
+	font-family:georgia;
+	text-align:center;
+}
+.Product #slideshow {
+  overflow: hidden;
+  height: 700px;
+  width: 728px;
+  margin: 0 auto;
+}
+ .Product .slide {
+  float: left;
+  height: 700px;
+  width: 728px;
+}
+.Product .slide-wrapper {
+   width: calc(728px * 5);
+  animation: slide 10s ease infinite;
+}
+@keyframes slide {
+     20% {
+    margin-left: 0px;
+  }
+ 40% {
+    margin-left: calc(-728px * 1);
+  }
+ 
+  60% {
+    margin-left: calc(-728px * 2);
+  }
+ 
+  80% {
+    margin-left: calc(-728px * 3);
+  }
+   100% {
+    margin-left: calc(-728px * 4);
+  }
+}
+.contact .second{
+	text-align:center;
+	font-family:georgia;
+	border-style:double;
+	border-radius:20px;
+	margin-left:500px;
+	margin-right:500px;
+	color:white;
+	height:450px;
+	width:600px;
+	font-size:25px;
+}
+.contact .first{
+	font-size:48px;
+	color:white;
+	text-shadow:0 5px 8px;
+	font-family:georgia;
+	text-align:center;
+}
+.contact .button{
+	color:black;
+	margin-left:40px;
+	margin-right:20px;
+	font-size:20px;
+	padding:10px;
+	text-align:center;
+	display:inline-block;
+}
+.button:hover{
+	background-color:white;
+	border-style:solid 2px black;
+}
+	
